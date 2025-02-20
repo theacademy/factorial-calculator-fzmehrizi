@@ -63,7 +63,7 @@ public class Factorial {
 		 
 		int result = 1;
 		//YOUR CODE STARTS HERE
-		 for (int i = 1; i <= num; i++) {
+		 for (int i = 1; i <= this.num; i++) {
 			 result *= i;
 		 }
 
