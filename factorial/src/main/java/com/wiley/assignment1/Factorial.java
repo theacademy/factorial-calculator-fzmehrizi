@@ -35,9 +35,9 @@ public class Factorial {
 
 		//YOUR CODE STARTS HERE
 		 if (scanner.hasNextInt()) { // Check if input is an integer
-			 num = scanner.nextInt();
-			 if (num >= 1 && num <= 10) { // Validate range
-				 return num;
+			 this.num = scanner.nextInt();
+			 if (this.num >= 1 && this.num <= 10) { // Validate range
+				 return this.num;
 			 }
 		 } else {
 			 scanner.next(); // Consume invalid input
